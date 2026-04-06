@@ -261,8 +261,8 @@ p {
     position: relative;
     width: 235px;
     height: 30px;
-    top: 30px;
-    left: 75px;
+    margin-top: 30px;
+    margin-left: 75px;
     padding-top: 25px;
     padding-left: 5px;
     border-top: 1px solid;
@@ -276,6 +276,16 @@ p {
     font-style: normal;
 }
 
+.email {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 82px;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    color: #AFAFAF;
+}
+
 .email-input::placeholder {
     font-family: "Barlow";
     font-size: 15px;
@@ -287,8 +297,8 @@ p {
    position: relative;
     width: 245px;
     height:30px;
-    top: 30px;
-    left: 110px;
+    margin-top: 30px;
+    margin-left: 35px;
     padding-top: 25px;
     padding-left: 5px;
     border-top: 1px solid;
@@ -302,20 +312,10 @@ p {
     font-style: normal;
 }
 
-.email {
-    position: absolute;
-    top: 38px;
-    left: 82px;
-    font-family: "Barlow";
-    font-size: 15px;
-    font-style: normal;
-    color: #AFAFAF;
-}
-
 .phone {
     position: absolute;
-    top: 38px;
-    right: 270px;
+    margin-top: 38px;
+    margin-left: 45px;
     font-family: "Barlow";
     font-size: 15px;
     font-style: normal;
