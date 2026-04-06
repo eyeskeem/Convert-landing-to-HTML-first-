@@ -1,8 +1,8 @@
 ## 🎨 web-core-4.7
 
-###HTML (Основная структура)
+### HTML (Основная структура)
 
-'''HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,9 +94,9 @@
 </main>
 </body>
 </html>
-'''
+```
 
-'''CSS
+```CSS
 
 @font-face {
     font-family: "Barlow";
@@ -401,4 +401,4 @@ p {
     font-size: 15px;
     color: #ffffff;
 } 
-'''
+```
