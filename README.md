@@ -323,8 +323,8 @@ p {
 
 .Main-text h2 {
     position: relative;
-    top: 75px;
-    left: 75px;
+    margin-top: 55px;
+    margin-left: 75px;
     font-family: "Barlow";
     font-size: 22px;
     font-weight: normal;
@@ -333,7 +333,6 @@ p {
 
 .Main-text p {
     position: relative;
-    top: 70px;
     font-family: "Barlow";
     font-size: 14px;
     font-style: normal;
@@ -342,8 +341,8 @@ p {
 
 .radio-button {
     position: relative;
-    top: 100px;
-    left: 75px;
+    margin-top: 50px;
+    margin-left: 75px;
 }
 
 .radio-button label {
@@ -368,8 +367,8 @@ p {
 .radio-info {
     position: relative;
     width: 250px;
-    top: 120px;
-    left: 15px;
+    margin-top: 40px;
+    margin-left: 95px;
     border-radius: 1px;
     box-shadow: 0px 0px 5px 1px rgba(209, 209, 209, 0.2);
     font-family: "Barlow";
@@ -379,9 +378,9 @@ p {
 }
 
 .checkbox {
-    position: relative;
-    top: 170px;
-    left: 75px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 75px;
     font-family: "Barlow";
     font-size: 13px;
     font-style: normal;
@@ -392,8 +391,8 @@ p {
     position: relative;
     width: 245px;
     height: 42px;
-    top: 210px;
-    left: 75px;
+    margin-top: 110px;
+    margin-left: 75px;
     border-radius: 5px;
     border: 1px solid #3698FB;
     background-color: #3698FB;
