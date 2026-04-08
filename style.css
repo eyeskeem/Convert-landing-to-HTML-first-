@@ -122,7 +122,7 @@ p {
     background-color: #0076b6;
 }
 
-.OR {
+.or {
     margin-top: 50px;
     margin-left: 330px;
     font-size: 14px;
@@ -206,7 +206,7 @@ p {
     color: #AFAFAF;
 }
 
-.Main-text h2 {
+h2 {
     position: relative;
     margin-top: 55px;
     margin-left: 75px;
@@ -269,7 +269,7 @@ p {
     color: #96A5B1;
 }
 
-.Create-Account {
+.create-account {
     position: relative;
     width: 245px;
     height: 42px;
