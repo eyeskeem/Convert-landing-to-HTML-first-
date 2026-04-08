@@ -1,19 +1,21 @@
-@font-face {
+
+ @font-face {
     font-family: "Barlow";
     src: url('fonts/Barlow-Regular.otf') format('opentype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Barlow";
     src: url('fonts/Barlow-Bold.otf') format('opentype');
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
 }
 
 main {
     display: flex;
+    font-family: "Barlow";
     background-color: #EFF6FF;
 }
 
@@ -76,7 +78,6 @@ h1 {
     margin-top: 100px;
     margin-left: 75px;
     font-size: 30px;
-    font-family: "Barlow";
     letter-spacing: -1.5;
     font-weight: normal;
     color: #7B8A92;
@@ -84,7 +85,6 @@ h1 {
 
 p {
     margin-left: 75px;
-    font-family: "Barlow";
     font-size: 20px;
     font-style: normal;
     color: #96A5B1;
@@ -125,7 +125,6 @@ p {
 .OR {
     margin-top: 50px;
     margin-left: 330px;
-    font-family: "Barlow";
     font-size: 14px;
     color: #AFAFAF;
 }
@@ -159,15 +158,12 @@ p {
 .email-input {
     position: relative;
     width: 235px;
-    height: 54px;
+    height: 30px;
     top: 20px;
     margin-left: 75px;
     padding-top: 25px;
     padding-left: 5px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-right: 1px solid;
-    border-color: #EEEEEE ;
+    border: 1px solid #EEEEEE;
     border-left: 2px solid #0076b6;
     background-color: transparent;
     font-family: "Barlow";
@@ -185,26 +181,15 @@ p {
     color: #AFAFAF;
 }
 
-.email-input::placeholder {
-    font-family: "Barlow";
-    font-size: 15px;
-    font-style: normal;
-    color: #000000;
-}
-
 .phone-input {
    position: relative;
     width: 245px;
-    height:54px;
+    height: 30px;
     top: 20px;
     margin-left: 35px;
     padding-top: 25px;
     padding-left: 5px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-color: #EEEEEE ;
+    border: 1px solid #EEEEEE;
     background-color: transparent;
     font-family: "Barlow";
     font-size: 15px;
@@ -225,7 +210,6 @@ p {
     position: relative;
     margin-top: 55px;
     margin-left: 75px;
-    font-family: "Barlow";
     font-size: 22px;
     font-weight: normal;
     color: #7B8A92;
@@ -233,7 +217,6 @@ p {
 
 .Main-text p {
     position: relative;
-    font-family: "Barlow";
     font-size: 14px;
     font-style: normal;
     color: #96A5B1;
@@ -271,7 +254,6 @@ p {
     margin-left: 95px;
     border-radius: 1px;
     box-shadow: 0px 0px 5px 1px rgba(209, 209, 209, 0.2);
-    font-family: "Barlow";
     font-size: 14px;
     font-style: normal;
     color: #96A5B1;
