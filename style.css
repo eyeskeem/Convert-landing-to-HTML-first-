@@ -1,6 +1,6 @@
  @font-face {
     font-family: "Barlow";
-    src: url('fonts/Barlow-Regular.otf') format('opentype');
+    src: url('fonts/Barlow-thin.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
 }
@@ -161,7 +161,7 @@ h1 {
     margin-top: 50px;
 }
 
-.email {
+.email, .phone {
     position: relative;
 }
 
@@ -172,15 +172,14 @@ h1 {
     padding-top: 20px;
     padding-left: 5px;
     border: 1px solid #EEEEEE;
-    border-left: 2px solid #0076b6;
     background-color: transparent;
     font-family: "Barlow";
     font-size: 15px;
     font-style: normal;
 }
 
-.email-input:focus {
-    border-color: #0076b6;
+.email-input:focus, .phone-input:focus {
+    border-left: 2px solid #0076b6;
     outline: none;
 }
 
@@ -194,9 +193,6 @@ h1 {
     color: #AFAFAF;
 }
 
-.phone {
-    position: relative;
-}
 
 .phone-input {
     position: absolute;
@@ -210,11 +206,6 @@ h1 {
     font-family: "Barlow";
     font-size: 15px;
     font-style: normal;
-}
-
-.phone-input:focus {
-    border-color: #0076b6;
-    outline: none;
 }
 
 .phone-lable {
@@ -279,7 +270,7 @@ h2 {
     color: #96A5B1;
 }
 
-.tip-individual {
+.tip-individual, .tip-business, .tip-ira, .tip-trust {
     position: relative;
     display: inline-block;
     width: 10px;
@@ -288,7 +279,7 @@ h2 {
     margin-left: 6px;
 }
 
-.tip-individual::before {
+.tip-individual::before, .tip-business::before, .tip-ira::before, .tip-trust::before {
     position: absolute;
     content: "ⓘ";
     top: 4px;
@@ -298,134 +289,11 @@ h2 {
     font-weight: 400;
 }
 
-.tip-individual:hover p {
+.tip-individual:hover p, .tip-business:hover p, .tip-ira:hover p, .tip-trust:hover p {
     display: block;
 }
 
-.tip-individual p {
-    display: none;
-    position: absolute;
-    width: 230px;
-    height: 55px;
-    padding: 5px 5px;
-    margin-top: 25px;
-    margin-left: 15px;
-    border-radius: 5%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-    transform: translate(-50%,30%);
-    z-index: 1000;
-    font-family: "Barlow";
-    font-size: 13px;
-    font-weight: 100;
-    background-color: #fff;
-}
-
-.tip-business {
-    position: relative;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    margin-left: 6px;
-}
-
-.tip-business::before {
-    position: absolute;
-    content: "ⓘ";
-    top: 4px;
-    transform: translate(-50%, -50%);
-    color: #96A5B1;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.tip-business:hover p {
-    display: block;
-}
-
-.tip-business p {
-    display: none;
-    position: absolute;
-    width: 230px;
-    height: 55px;
-    padding: 5px 5px;
-    margin-top: 25px;
-    margin-left: 15px;
-    border-radius: 5%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-    transform: translate(-50%,30%);
-    z-index: 1000;
-    font-family: "Barlow";
-    font-size: 13px;
-    font-weight: 100;
-    background-color: #fff;
-}
-
-.tip-ira {
-    position: relative;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    margin-left: 6px;
-}
-
-.tip-ira::before {
-    position: absolute;
-    content: "ⓘ";
-    top: 4px;
-    transform: translate(-50%, -50%);
-    color: #96A5B1;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.tip-ira:hover p {
-    display: block;
-}
-
-.tip-ira p {
-    display: none;
-    position: absolute;
-    width: 230px;
-    height: 55px;
-    padding: 5px 5px;
-    margin-top: 25px;
-    margin-left: 15px;
-    border-radius: 5%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-    transform: translate(-50%,30%);
-    z-index: 1000;
-    font-family: "Barlow";
-    font-size: 13px;
-    font-weight: 100;
-    background-color: #fff;
-}
-
-.tip-trust {
-    position: relative;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    margin-left: 6px;
-}
-
-.tip-trust::before {
-    position: absolute;
-    content: "ⓘ";
-    top: 4px;
-    transform: translate(-50%, -50%);
-    color: #96A5B1;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.tip-trust:hover p {
-    display: block;
-}
-
-.tip-trust p {
+.tip-individual p, .tip-business p, .tip-ira p, .tip-trust p {
     display: none;
     position: absolute;
     width: 230px;
